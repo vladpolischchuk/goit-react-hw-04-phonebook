@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 50px;
+}
+
+.list__item {
+  margin: 0 0 20px 0;
+}
+
+.button__delete {
+  margin-left: 15px;
+
+  color: red;
+  background-color: transparent;
+  border-color: red;
+  border-radius: 5px;
+}
+
+.button__delete:hover,
+.button__delete:focus {
+  color: white;
+  background-color: red;
+}
